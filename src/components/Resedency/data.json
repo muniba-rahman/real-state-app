@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Ellia Brown",
+        "price": "47,043",
+        "detail": "23rd Avenue, National Park, NYC",
+        "image": "./p1.jpg"
+    },
+    {
+        "name": "Luba Zeldurg",
+        "price": "47,043",
+        "detail": "23rd Avenue, National Park, NYC",
+        "image": "./p2.jpg"
+    },
+    {
+        "name": "George Kenye",
+        "price": "47,043",
+        "detail": "23rd Avenue, National Park, NYC",
+        "image": "./p3.jpg"
+    },
+    {
+        "name": "Dale Smith",
+        "price": "47,043",
+        "detail": "23rd Avenue, National Park, NYC",
+        "image": "./p4.jpg"
+    },
+    {
+        "name": "Stephan White",
+        "price": "47,043",
+        "detail": "23rd Avenue, National Park, NYC",
+        "image": "./p5.jpg"
+    },
+    {
+        "name": "Sam Green",
+        "price": "47,043",
+        "detail": "23rd Avenue, National Park, NYC",
+        "image": "./p6.jpg"
+    }
+]

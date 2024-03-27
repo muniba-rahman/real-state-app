@@ -1,0 +1,49 @@
+.navbar-brand{
+  background: linear-gradient(90deg, hsla(230, 59%, 25%, 1) 0%, hsla(359, 73%, 39%, 1) 50%, hsla(32, 97%, 59%, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 4px;
+  animation: animate 10s linear infinite;
+}
+
+:root{
+    --blue: #124076;
+    --pink: #D6B7B5;
+    --fon: #D4C6BD;
+    --white: #F5F0ED;
+    --black: #45474B;
+    --background: linear-gradient(to right bottom, #d4c6bd, #b9a4a4, #968591, #6b6b7d, #3d5361);
+    --gradient: linear-gradient(90deg, hsla(230, 59%, 25%, 1) 0%, hsla(359, 73%, 39%, 1) 50%, hsla(32, 97%, 59%, 1) 100%);
+    --shadow: 0px 23px 21px -8px rgba(136, 160, 255, 0.25);
+  }
+
+  nav{
+    backdrop-filter: blur(8px);
+  }
+
+.nav-item .nav-link{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--blue);
+}
+.nav-item:hover{
+    border-bottom: 2px solid var(--blue);
+}
+
+.btn{
+    font-size: 1.2rem;
+}
+.btn:hover{
+    transition: all 300ms ease-in;
+    color: var(--black);
+    transform: scale(1.2);
+}
+
+@media (max-width: 400px){
+  .navbar-brand img{
+    size: 2rem;
+  }
+}
